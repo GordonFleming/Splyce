@@ -1,19 +1,57 @@
-*{
-    padding: 0;
+$textColour : #41404083;
+$backgroundColour: grey;
+$bannerColour: #464646;
+$bodyColour: #333;
+
+*, *:after, *:before {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 body{
-    background-color: grey;
-    height: 100vh;
-    width: 100%;
+    background: $backgroundColour;
+    color: $bodyColour;
+    position: relative;
+}
+h1{
+    color: $bodyColour;
+}
+h3 {
+    font-weight: 400;
+    color: $bodyColour;
+}
+header {
+    color: #fff;
+    padding-top: 10vw;
+    padding-bottom: 30vw;
+    text-align: center;
+}
+main {
+    background: $backgroundColour;
+    border-bottom: 4px solid $bannerColour;
+    padding: 10vh 0 80vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.svg-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+} 
+svg {
+    path {
+        transition: 0.1s;
+    }
+}
+.footer_look {
+    background: $textColour;
+    padding: 10px;
+    margin-top: auto;
 }
 #logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    animation: fill 0.5s ease forwards 4.2s;
+    animation: fill 0.5s ease forwards 4s;
 }
 #logo path:nth-child(1){
     stroke-dasharray: 1000px;
@@ -55,6 +93,6 @@ body{
         fill: transparent;
     }
     to{
-        fill: #4d4d4d;
+        fill: #4D4D4D;
     }
 }
