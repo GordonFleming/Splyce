@@ -1,7 +1,7 @@
-$textColour : #41404083;
-$backgroundColour: grey;
-$bannerColour: #464646;
-$bodyColour: #333;
+$textColour : #4c5454;
+$backgroundColour: #252422;
+$bannerColour: #ccc5b9;
+$bodyColour: #403d39;
 
 *, *:after, *:before {
     margin: 0;
@@ -13,14 +13,14 @@ body{
     position: relative;
 }
 h1{
-    color: $bodyColour;
+    color: $textColour;
 }
 h3 {
     font-weight: 400;
-    color: $bodyColour;
+    color: $textColour;
 }
 header {
-    color: #fff;
+    color: $backgroundColour;
     padding-top: 10vw;
     padding-bottom: 30vw;
     text-align: center;
@@ -50,8 +50,11 @@ svg {
     padding: 10px;
     margin-top: auto;
 }
+#curve{
+    fill: $bannerColour;
+}
 #logo{
-    animation: fill 0.5s ease forwards 4s;
+    animation: fill 0.5s ease forwards 3s;
 }
 #logo path:nth-child(1){
     stroke-dasharray: 1000px;
@@ -61,27 +64,27 @@ svg {
 #logo path:nth-child(2){
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
-    animation: line-anim 3s ease forwards 0.5s;
+    animation: line-anim 3s ease forwards 0.3s;
 }
 #logo path:nth-child(3){
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
-    animation: line-anim 3s ease forwards 1s;
+    animation: line-anim 3s ease forwards 0.9s;
 }
 #logo path:nth-child(4){
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
-    animation: line-anim 3s ease forwards 1.5s;
+    animation: line-anim 3s ease forwards 1.2s;
 }
 #logo path:nth-child(5){
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
-    animation: line-anim 3s ease forwards 2s;
+    animation: line-anim 3s ease forwards 1.5s;
 }
 #logo path:nth-child(6){
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
-    animation: line-anim 3s ease forwards 2.5s;
+    animation: line-anim 3s ease forwards 1.8s;
 }
 @keyframes line-anim{
     to {
@@ -93,6 +96,31 @@ svg {
         fill: transparent;
     }
     to{
-        fill: #4D4D4D;
+        fill: $backgroundColour;
     }
+}
+input[type="checkbox"]{
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    right: 100px;
+    cursor: pointer;
+}
+input[type="checkbox"]:before
+{
+    position: absolute;
+    content: 'Dark';
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+}
+input[type="checkbox"]:checked:before
+{
+    content: 'Light';
+    color: #000;
+    background-color: #fff;
+}
+input[type="checkbox"]:checked ~ *
+{
+    filter: invert(1);
 }

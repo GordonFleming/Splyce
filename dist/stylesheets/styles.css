@@ -4,30 +4,30 @@
 }
 
 body {
-  background: grey;
-  color: #333;
+  background: #252422;
+  color: #403d39;
   position: relative;
 }
 
 h1 {
-  color: #333;
+  color: #4c5454;
 }
 
 h3 {
   font-weight: 400;
-  color: #333;
+  color: #4c5454;
 }
 
 header {
-  color: #fff;
+  color: #252422;
   padding-top: 10vw;
   padding-bottom: 30vw;
   text-align: center;
 }
 
 main {
-  background: grey;
-  border-bottom: 4px solid #464646;
+  background: #252422;
+  border-bottom: 4px solid #ccc5b9;
   padding: 10vh 0 80vh;
   position: relative;
   text-align: center;
@@ -48,14 +48,18 @@ svg path {
 }
 
 .footer_look {
-  background: #41404083;
+  background: #4c5454;
   padding: 10px;
   margin-top: auto;
 }
 
+#curve {
+  fill: #ccc5b9;
+}
+
 #logo {
-  -webkit-animation: fill 0.5s ease forwards 4.2s;
-          animation: fill 0.5s ease forwards 4.2s;
+  -webkit-animation: fill 0.5s ease forwards 3s;
+          animation: fill 0.5s ease forwards 3s;
 }
 
 #logo path:nth-child(1) {
@@ -68,36 +72,36 @@ svg path {
 #logo path:nth-child(2) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 0.5s;
-          animation: line-anim 3s ease forwards 0.5s;
+  -webkit-animation: line-anim 3s ease forwards 0.3s;
+          animation: line-anim 3s ease forwards 0.3s;
 }
 
 #logo path:nth-child(3) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 1s;
-          animation: line-anim 3s ease forwards 1s;
+  -webkit-animation: line-anim 3s ease forwards 0.9s;
+          animation: line-anim 3s ease forwards 0.9s;
 }
 
 #logo path:nth-child(4) {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  -webkit-animation: line-anim 3s ease forwards 1.2s;
+          animation: line-anim 3s ease forwards 1.2s;
+}
+
+#logo path:nth-child(5) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
   -webkit-animation: line-anim 3s ease forwards 1.5s;
           animation: line-anim 3s ease forwards 1.5s;
 }
 
-#logo path:nth-child(5) {
-  stroke-dasharray: 1000px;
-  stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 2s;
-          animation: line-anim 3s ease forwards 2s;
-}
-
 #logo path:nth-child(6) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 2.5s;
-          animation: line-anim 3s ease forwards 2.5s;
+  -webkit-animation: line-anim 3s ease forwards 1.8s;
+          animation: line-anim 3s ease forwards 1.8s;
 }
 
 @-webkit-keyframes line-anim {
@@ -117,7 +121,7 @@ svg path {
     fill: transparent;
   }
   to {
-    fill: #41404083;
+    fill: #252422;
   }
 }
 
@@ -126,7 +130,34 @@ svg path {
     fill: transparent;
   }
   to {
-    fill: #41404083;
+    fill: #252422;
   }
+}
+
+input[type="checkbox"] {
+  position: fixed;
+  z-index: 1;
+  top: 40px;
+  right: 100px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:before {
+  position: absolute;
+  content: 'Dark';
+  color: #fff;
+  background-color: #000;
+  padding: 10px 20px;
+}
+
+input[type="checkbox"]:checked:before {
+  content: 'Light';
+  color: #000;
+  background-color: #fff;
+}
+
+input[type="checkbox"]:checked ~ * {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 /*# sourceMappingURL=styles.css.map */
