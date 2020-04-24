@@ -1,3 +1,4 @@
+/* Variables */
 $textColour : #4c5454;
 $backgroundColour: #252422;
 $bannerColour: #ccc5b9;
@@ -7,11 +8,6 @@ $bodyColour: #403d39;
     margin: 0;
     padding: 0;
 }
-body{
-    background: $backgroundColour;
-    color: $bodyColour;
-    position: relative;
-}
 h1{
     color: $textColour;
 }
@@ -19,18 +15,30 @@ h3 {
     font-weight: 400;
     color: $textColour;
 }
+legend{
+    color: #fff;
+    text-align: center;
+}
+label{
+    color: #fff;
+    text-align: left;
+}
 header {
     color: $backgroundColour;
     padding-top: 10vw;
     padding-bottom: 30vw;
     text-align: center;
 }
+body{
+    background: $backgroundColour;
+    color: $bodyColour;
+    position: relative;
+}
 main {
     background: $backgroundColour;
     border-bottom: 4px solid $bannerColour;
     padding: 10vh 0 80vh;
     position: relative;
-    text-align: center;
     overflow: hidden;
 }
 .svg-container {
@@ -53,6 +61,94 @@ svg {
 #curve{
     fill: $bannerColour;
 }
+/* Me animation */
+#mouse{
+    animation: mouse 5s ease-in-out infinite alternate;
+}
+#right-shoe{
+    animation: right-shoe 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Rect1{
+    animation: fillin 2s ease forwards 2s infinite alternate-reverse;
+}
+#Rect4{
+    animation: fillin 2s ease forwards 2s infinite alternate-reverse;
+}
+#Rect2{
+    animation: fillin 2s ease forwards 2s infinite alternate-reverse;
+}
+#Rect3{
+    animation: fillin 2s ease forwards 2s infinite alternate-reverse;
+}
+#Rect11{
+    animation: fillin 2s ease forwards 2s infinite alternate-reverse;
+}
+#Rect12{
+    animation: fillin 1.8s ease forwards 2s infinite alternate-reverse;
+}
+#Rect13{
+    animation: fillin 2.1s ease forwards 2s infinite alternate-reverse;
+}
+#Rect9{
+    animation: fillin 2.4s ease forwards 2s infinite alternate-reverse;
+}
+#Rect10{
+    animation: fillin 2.7s ease forwards 2s infinite alternate-reverse;
+}
+#Rect16{
+    animation: fillin 3s ease forwards 2s infinite alternate-reverse;
+}
+#Rect15{
+    animation: fillin 3.3s ease forwards 2s infinite alternate-reverse;
+}
+#Rect14{
+    animation: fillin 3.6s ease forwards 2s infinite alternate-reverse;
+}
+#Rect18{
+    animation: fillin 3.9s ease forwards 2s infinite alternate-reverse;
+}
+#Rect17{
+    animation: fillin 4.1s ease forwards 2s infinite alternate-reverse;
+}
+#Rect5{
+    animation: fillin 4.4s ease forwards 2s infinite alternate-reverse;
+}
+#Rect8{
+    animation: fillin 4.7s ease forwards 2s infinite alternate-reverse;
+}
+#Rect6{
+    animation: fillin 5s ease forwards 2s infinite alternate-reverse;
+}
+#Rect7{
+    animation: fillin 5.3s ease forwards 2s infinite alternate-reverse;
+}
+@keyframes fillin{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: grey;
+    }
+}
+@keyframes right-shoe{
+    from{
+        transform: rotateZ(0deg) & translateY(0px);
+    }
+    to{
+        transform: rotateZ(15deg) & translateY(5px);
+    }
+}
+@keyframes mouse{
+    from{
+        transform: translateX(0px) & translateY(0px);
+    }
+    to{
+        transform: translateX(30px) & translateY(6px);
+    }
+}
+/* Logo animation */
 #logo{
     animation: fill 0.5s ease forwards 3s;
 }
@@ -99,8 +195,9 @@ svg {
         fill: $backgroundColour;
     }
 }
+/* Invert colours */
 input[type="checkbox"]{
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 40px;
     right: 100px;
