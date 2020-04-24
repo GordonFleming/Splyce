@@ -122,13 +122,17 @@
                 <fieldset>
                   <legend>Contact me!</legend>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <label>Name</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your name" name="name">
                   </div>
                   <div class="form-group">
-                    <label for="exampleSelect1">Topic of interest?</label>
-                    <select class="form-control" id="exampleSelect1">
+                    <label>Email address</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter your email" name="email">
+                    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label>Topic of interest?</label>
+                    <select class="form-control" name="options[]">
                       <option>Website development (static/dynamic)</option>
                       <option>Web maintainance</option>
                       <option>Support with computer issues</option>
@@ -137,8 +141,8 @@
                     </select>
                   </div>
                   <div class="form-group">
-                    <label for="exampleTextarea">Your message...</label>
-                    <textarea class="form-control" id="exampleTextarea" rows="8"></textarea>
+                    <label>Your message...</label>
+                    <textarea name="message" class="form-control" id="exampleTextarea" rows="8"></textarea>
                   </div>
                   <button type="submit" class="btn btn-primary submit">Submit</button>
                 </fieldset>
