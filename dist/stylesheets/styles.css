@@ -53,8 +53,8 @@ main {
 }
 
 svg path {
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .footer_look {
