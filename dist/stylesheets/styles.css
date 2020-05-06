@@ -46,6 +46,11 @@ main {
   overflow: hidden;
 }
 
+.center_vert {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .card {
   background-color: #ccc5b9;
 }

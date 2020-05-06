@@ -43,6 +43,10 @@ main {
     position: relative;
     overflow: hidden;
 }
+.center_vert{
+    width: 50%;
+    margin: 0 auto;
+}
 .card{
     background-color: $bannerColour;
 }
