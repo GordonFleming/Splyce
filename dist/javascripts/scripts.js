@@ -2,8 +2,8 @@
     // Variables
     var $curve = document.getElementById("curve");
     var last_known_scroll_position = 0;
-    var defaultCurveValue = 450;
-    var curveRate = 3;
+    var defaultCurveValue = 350;
+    var curveRate = 2.5;
     var ticking = false;
     var curveValue;
   

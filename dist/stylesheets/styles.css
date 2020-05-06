@@ -26,7 +26,7 @@ label {
 header {
   color: #252422;
   padding-top: 10vw;
-  padding-bottom: 30vw;
+  padding-bottom: 20vw;
   text-align: center;
 }
 
@@ -39,9 +39,13 @@ body {
 main {
   background: #252422;
   border-bottom: 4px solid #ccc5b9;
-  padding: 10vh 0 80vh;
+  padding: 5vh 10vh 10vh;
   position: relative;
   overflow: hidden;
+}
+
+.card {
+  background-color: #ccc5b9;
 }
 
 .svg-container {
@@ -53,8 +57,8 @@ main {
 }
 
 svg path {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .footer_look {
@@ -217,50 +221,50 @@ svg path {
 
 /* Logo animation */
 #logo {
-  -webkit-animation: fill 0.5s ease forwards 3s;
-          animation: fill 0.5s ease forwards 3s;
+  -webkit-animation: fill 0.4s ease forwards 2.5s;
+          animation: fill 0.4s ease forwards 2.5s;
 }
 
 #logo path:nth-child(1) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards;
-          animation: line-anim 3s ease forwards;
+  -webkit-animation: line-anim 2.5s ease forwards;
+          animation: line-anim 2.5s ease forwards;
 }
 
 #logo path:nth-child(2) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 0.3s;
-          animation: line-anim 3s ease forwards 0.3s;
+  -webkit-animation: line-anim 3s ease forwards 0.2s;
+          animation: line-anim 3s ease forwards 0.2s;
 }
 
 #logo path:nth-child(3) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 0.9s;
-          animation: line-anim 3s ease forwards 0.9s;
+  -webkit-animation: line-anim 3s ease forwards 0.4s;
+          animation: line-anim 3s ease forwards 0.4s;
 }
 
 #logo path:nth-child(4) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 1.2s;
-          animation: line-anim 3s ease forwards 1.2s;
+  -webkit-animation: line-anim 3s ease forwards 0.6s;
+          animation: line-anim 3s ease forwards 0.6s;
 }
 
 #logo path:nth-child(5) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 1.5s;
-          animation: line-anim 3s ease forwards 1.5s;
+  -webkit-animation: line-anim 3s ease forwards 0.8s;
+          animation: line-anim 3s ease forwards 0.8s;
 }
 
 #logo path:nth-child(6) {
   stroke-dasharray: 1000px;
   stroke-dashoffset: 1000px;
-  -webkit-animation: line-anim 3s ease forwards 1.8s;
-          animation: line-anim 3s ease forwards 1.8s;
+  -webkit-animation: line-anim 3s ease forwards 1s;
+          animation: line-anim 3s ease forwards 1s;
 }
 
 @-webkit-keyframes line-anim {
