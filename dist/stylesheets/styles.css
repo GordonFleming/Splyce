@@ -78,6 +78,10 @@ svg path {
   fill: #ccc5b9;
 }
 
+#pad {
+  padding-bottom: 5rem;
+}
+
 /* Me animation */
 #mouse {
   -webkit-animation: mouse 5s ease-in-out infinite alternate;
@@ -302,33 +306,5 @@ svg path {
   to {
     fill: #252422;
   }
-}
-
-/* Invert colours */
-input[type="checkbox"] {
-  position: absolute;
-  z-index: 1;
-  top: 40px;
-  right: 100px;
-  cursor: pointer;
-}
-
-input[type="checkbox"]:before {
-  position: absolute;
-  content: 'Dark';
-  color: #fff;
-  background-color: #000;
-  padding: 10px 20px;
-}
-
-input[type="checkbox"]:checked:before {
-  content: 'Light';
-  color: #000;
-  background-color: #fff;
-}
-
-input[type="checkbox"]:checked ~ * {
-  -webkit-filter: invert(1);
-          filter: invert(1);
 }
 /*# sourceMappingURL=styles.css.map */
