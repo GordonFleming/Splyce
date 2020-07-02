@@ -32,7 +32,7 @@ label {
 }
 
 header {
-  color: #4c5c68;
+  color: #384f61;
   padding-top: 5vw;
   padding-bottom: 20vw;
   padding-left: 10vw;
@@ -41,13 +41,13 @@ header {
 }
 
 body {
-  background: #4c5c68;
+  background: #384f61;
   color: #403d39;
   position: relative;
 }
 
 main {
-  background: #4c5c68;
+  background: #384f61;
   border-bottom: 4px solid #46494c;
   padding: 5vh 10vh 10vh;
   position: relative;
@@ -303,7 +303,7 @@ svg path {
     fill: transparent;
   }
   to {
-    fill: #4c5c68;
+    fill: #384f61;
   }
 }
 
@@ -312,7 +312,7 @@ svg path {
     fill: transparent;
   }
   to {
-    fill: #4c5c68;
+    fill: #384f61;
   }
 }
 /*# sourceMappingURL=styles.css.map */
