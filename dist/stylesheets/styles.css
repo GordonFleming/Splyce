@@ -315,4 +315,31 @@ svg path {
     fill: #384f61;
   }
 }
+
+/* Scroll animation */
+#circle {
+  animation: move 1.5s ease infinite alternate-reverse;
+}
+
+@-webkit-keyframes move {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes move {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
 /*# sourceMappingURL=styles.css.map */

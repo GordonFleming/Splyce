@@ -213,3 +213,14 @@ svg {
         fill: $backgroundColour;
     }
 }
+/* Scroll animation */
+#circle{
+    animation: move 1.5s ease infinite alternate-reverse;
+}
+@keyframes move{
+    from{
+        transform: translateY(0px);
+    }to{
+        transform: translateY(20px);
+    }
+}
