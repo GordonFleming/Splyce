@@ -1,7 +1,7 @@
 /* Variables */
-$textColour : #4c5454;
-$backgroundColour: #252422;
-$bannerColour: #ccc5b9;
+$textColour : #c5c3c6;
+$backgroundColour: #4c5c68;
+$bannerColour: #46494c;
 $bodyColour: #403d39;
 
 *, *:after, *:before {
@@ -9,11 +9,17 @@ $bodyColour: #403d39;
     padding: 0;
 }
 h1{
-    color: $textColour;
+    color: #7e7b79;
 }
 h3 {
     font-weight: 400;
     color: $textColour;
+}
+.card-header{
+    color: #7e7b79;
+}
+.card-title{
+    color: #7e7b79;
 }
 legend{
     color: #fff;
@@ -63,7 +69,7 @@ svg {
     }
 }
 .footer_look {
-    background: $textColour;
+    background: $bodyColour;
     padding: 10px;
     margin-top: auto;
 }

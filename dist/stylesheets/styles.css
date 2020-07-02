@@ -5,12 +5,20 @@
 }
 
 h1 {
-  color: #4c5454;
+  color: #7e7b79;
 }
 
 h3 {
   font-weight: 400;
-  color: #4c5454;
+  color: #c5c3c6;
+}
+
+.card-header {
+  color: #7e7b79;
+}
+
+.card-title {
+  color: #7e7b79;
 }
 
 legend {
@@ -24,7 +32,7 @@ label {
 }
 
 header {
-  color: #252422;
+  color: #4c5c68;
   padding-top: 5vw;
   padding-bottom: 20vw;
   padding-left: 10vw;
@@ -33,14 +41,14 @@ header {
 }
 
 body {
-  background: #252422;
+  background: #4c5c68;
   color: #403d39;
   position: relative;
 }
 
 main {
-  background: #252422;
-  border-bottom: 4px solid #ccc5b9;
+  background: #4c5c68;
+  border-bottom: 4px solid #46494c;
   padding: 5vh 10vh 10vh;
   position: relative;
   overflow: hidden;
@@ -52,7 +60,7 @@ main {
 }
 
 .card {
-  background-color: #ccc5b9;
+  background-color: #46494c;
 }
 
 .svg-container {
@@ -69,13 +77,13 @@ svg path {
 }
 
 .footer_look {
-  background: #4c5454;
+  background: #403d39;
   padding: 10px;
   margin-top: auto;
 }
 
 #curve {
-  fill: #ccc5b9;
+  fill: #46494c;
 }
 
 #pad {
@@ -295,7 +303,7 @@ svg path {
     fill: transparent;
   }
   to {
-    fill: #252422;
+    fill: #4c5c68;
   }
 }
 
@@ -304,7 +312,7 @@ svg path {
     fill: transparent;
   }
   to {
-    fill: #252422;
+    fill: #4c5c68;
   }
 }
 /*# sourceMappingURL=styles.css.map */
