@@ -1,9 +1,4 @@
 /* Variables */
-*, *:after, *:before {
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
   color: #7e7b79;
 }
@@ -341,5 +336,28 @@ svg path {
     -webkit-transform: translateY(20px);
             transform: translateY(20px);
   }
+}
+
+/* Sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 30%;
+  right: 2rem;
+  overflow-x: hidden;
+  padding-left: 0px;
+}
+
+.sidenav i {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: grey;
+}
+
+.sidenav i:hover {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px #9191b9, 0 0 5px #cfcfdf;
 }
 /*# sourceMappingURL=styles.css.map */

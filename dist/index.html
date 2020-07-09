@@ -8,14 +8,20 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheets/styles.css">
+
+    <script src="https://kit.fontawesome.com/c6ccf4d2bc.js" crossorigin="anonymous"></script>
 </head>
-    <body>
+    <body> 
+        <div class="sidenav">
+            <i id="top" style="padding-left: 40px;" class="fas fa-circle fa-2x"></i>
+            <i id="middle" style="padding-left: 40px;" class="fas fa-circle fa-2x"></i>
+            <i id="bottom" style="padding-left: 40px;" class="fas fa-circle fa-2x"></i>
+        </div>
         <div class="svg-container">
             <svg viewbox="0 0 800 400" class="svg img-fluid">
             <path id="curve" d="M 800 300 Q 400 380 0 300 L 0 0 L 800 0 L 800 300 Z"></path>
             </svg>
         </div>
-
         <header>
             <svg class="img-fluid" id="logo" viewBox="0 0 631 148" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
@@ -142,7 +148,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label>Your message...</label>
+                            <label id="scrollOne">Your message...</label>
                             <textarea name="message" class="form-control" id="exampleTextarea" rows="8"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary submit">Submit</button>
@@ -208,13 +214,12 @@
                         <a href="mailto:info@splyce.dev">info@splyce.dev</a>
                     </div>
                     <div class="col-4 pt-2">
-                        <a href="https://sourcerer.io/wolfbyne" target="_blank"><img src="https://sourcerer.io/icons/logo-sharing.svg"height="55px" alt="Sourcerer"></a>
+                        <a id="scrollTwo" href="https://sourcerer.io/wolfbyne" target="_blank"><img src="https://sourcerer.io/icons/logo-sharing.svg"height="55px" alt="Sourcerer"></a>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- Javascript -->
-        <script src="https://kit.fontawesome.com/c6ccf4d2bc.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="./javascripts/scripts.js"></script>
     </body>
+     <!-- Javascript -->
+     <script type="text/javascript" src="./javascripts/scripts.js"></script>
 </html>
