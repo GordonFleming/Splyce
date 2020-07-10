@@ -29,7 +29,7 @@ label {
 header {
   color: #384f61;
   padding-top: 5vw;
-  padding-bottom: 20vw;
+  padding-bottom: 16vw;
   padding-left: 10vw;
   padding-right: 10vw;
   text-align: center;
@@ -341,13 +341,13 @@ svg path {
 /* Sidebar menu */
 .sidenav {
   height: 100%;
-  width: 80px;
+  width: 100px;
   position: fixed;
   z-index: 1;
   top: 30%;
   right: 2rem;
   overflow-x: hidden;
-  padding-left: 40px;
+  padding-left: 50px;
 }
 
 .sidenav i {
