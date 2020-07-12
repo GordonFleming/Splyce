@@ -65,41 +65,13 @@ var scroll_position = 0;
 window.addEventListener("scroll",function(ezz){
     scroll_position = window.scrollY;
     if(scroll_position>=0 && scroll_position<680){
-        // //1st action
-        // botCir.style.paddingTop = "15px";
-        // midCir.style.paddingBottom = "15px";
-        // //2nd action
-        // topCir.style.paddingBottom = "40px";
-        // midCir.style.paddingTop = "40px"
-        // midCir.style.paddingLeft = "40px"
         topCir.style.color = "white"
         midCir.style.color = "grey"
     }else if(scroll_position>=680 && scroll_position<1200){
-        // //1st action
-        // botCir.style.paddingTop = "40px";
-        // midCir.style.paddingBottom = "40px";
-        // //2nd action
-        // topCir.style.paddingBottom = "0";
-        // midCir.style.paddingTop = "20px";
-        // midCir.style.paddingBottom = "5px";
-        // midCir.style.paddingLeft = "25px";
-        // botCir.style.paddingTop = "20px";
         topCir.style.color = "grey"
         midCir.style.color = "white"
         botCir.style.color = "grey"
     }else if(scroll_position>=1200){
-        // //1st action
-        // botCir.style.paddingTop = "40px";
-        // midCir.style.paddingBottom = "40px";
-        // //2nd action
-        // topCir.style.paddingBottom = "40px";
-        // midCir.style.paddingTop = "40px";
-        // midCir.style.paddingBottom = "40px";
-        // midCir.style.paddingLeft = "40px";
-        // botCir.style.paddingTop = "40px";  
-        // //3rd action
-        // topCir.style.paddingBottom = "15px";  
-        // midCir.style.paddingTop = "15px";
         botCir.style.color = "white"
         midCir.style.color = "grey"
     }
