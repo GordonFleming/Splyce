@@ -1,6 +1,6 @@
-#README
+# README
 
-###Tools used
+### Tools used
 1. HTML
 2. CSS
 3. SASS
