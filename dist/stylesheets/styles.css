@@ -29,7 +29,7 @@ label {
 header {
   color: #384f61;
   padding-top: 5vw;
-  padding-bottom: 16vw;
+  padding-bottom: 12vw;
   padding-left: 10vw;
   padding-right: 10vw;
   text-align: center;
@@ -44,7 +44,7 @@ body {
 main {
   background: #384f61;
   border-bottom: 4px solid #46494c;
-  padding: 5vh 10vh 10vh;
+  padding: 5vh;
   position: relative;
   overflow: hidden;
 }
@@ -79,10 +79,6 @@ svg path {
 
 #curve {
   fill: #46494c;
-}
-
-#pad {
-  padding-bottom: 5rem;
 }
 
 /* Me animation */

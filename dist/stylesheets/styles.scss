@@ -28,7 +28,7 @@ label{
 header {
     color: $backgroundColour;
     padding-top: 5vw;
-    padding-bottom: 16vw;
+    padding-bottom: 12vw;
     padding-left: 10vw;
     padding-right: 10vw;
     text-align: center;
@@ -41,7 +41,7 @@ body{
 main {
     background: $backgroundColour;
     border-bottom: 4px solid $bannerColour;
-    padding: 5vh 10vh 10vh;
+    padding: 5vh;
     position: relative;
     overflow: hidden;
 }
@@ -71,9 +71,6 @@ svg {
 }
 #curve{
     fill: $bannerColour;
-}
-#pad{
-    padding-bottom: 5rem;
 }
 /* Me animation */
 #mouse{
