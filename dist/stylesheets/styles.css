@@ -8,6 +8,10 @@ h3 {
   color: #c5c3c6;
 }
 
+#email {
+  font-size: 22px;
+}
+
 .card-header {
   color: #7e7b79;
 }
