@@ -345,7 +345,7 @@ svg path {
   position: fixed;
   z-index: 1;
   top: 30%;
-  right: 2rem;
+  right: 0.5rem;
   overflow-x: hidden;
   padding-left: 50px;
 }
