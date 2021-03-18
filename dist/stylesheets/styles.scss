@@ -1,41 +1,10 @@
 /* Variables */
-$textColour : #c5c3c6;
-$backgroundColour: #384f61;
-$bannerColour: #46494c;
-$bodyColour: #403d39;
+$textColour : #edf2f4;
+$backgroundColour: #ef233c;
+$bannerColour: #2b2d42;
+$bodyColour: #413f3e;
+$headingcolour: #d4d5db;
 
-h1{
-    color: #7e7b79;
-}
-h3 {
-    font-weight: 400;
-    color: $textColour;
-}
-#email{
-    font-size: 22px;
-}
-.card-header{
-    color: #7e7b79;
-}
-.card-title{
-    color: #7e7b79;
-}
-legend{
-    color: #fff;
-    text-align: center;
-}
-label{
-    color: #fff;
-    text-align: left;
-}
-header {
-    color: $backgroundColour;
-    padding-top: 5vw;
-    padding-bottom: 12vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    text-align: center;
-}
 body{
     background: $backgroundColour;
     color: $bodyColour;
@@ -47,6 +16,52 @@ main {
     padding: 5vh;
     position: relative;
     overflow: hidden;
+}
+header {
+    color: $backgroundColour;
+    padding-top: 5vw;
+    padding-bottom: 12vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+h1{
+    color: $headingcolour;
+}
+h3 {
+    font-weight: 400;
+    color: $textColour;
+}
+h5 {
+    font-weight: 400;
+    color: $textColour;
+}
+h6 {
+    font-weight: 400;
+    color: $textColour;
+}
+a{
+    color: $textColour;
+}
+#email{
+    font-size: 22px;
+}
+.card-header{
+    color: $headingcolour;
+}
+.card-title{
+    color: $headingcolour;
+}
+card-subtitle{
+    color: $headingcolour;
+}
+legend{
+    color: $bannerColour;
+    text-align: center;
+}
+label{
+    color: $bannerColour;
+    text-align: left;
 }
 .center_vert{
     width: 50%;

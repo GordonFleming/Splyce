@@ -1,37 +1,20 @@
 /* Variables */
-h1 {
-  color: #7e7b79;
+body {
+  background: #ef233c;
+  color: #413f3e;
+  position: relative;
 }
 
-h3 {
-  font-weight: 400;
-  color: #c5c3c6;
-}
-
-#email {
-  font-size: 22px;
-}
-
-.card-header {
-  color: #7e7b79;
-}
-
-.card-title {
-  color: #7e7b79;
-}
-
-legend {
-  color: #fff;
-  text-align: center;
-}
-
-label {
-  color: #fff;
-  text-align: left;
+main {
+  background: #ef233c;
+  border-bottom: 4px solid #2b2d42;
+  padding: 5vh;
+  position: relative;
+  overflow: hidden;
 }
 
 header {
-  color: #384f61;
+  color: #ef233c;
   padding-top: 5vw;
   padding-bottom: 12vw;
   padding-left: 10vw;
@@ -39,18 +22,53 @@ header {
   text-align: center;
 }
 
-body {
-  background: #384f61;
-  color: #403d39;
-  position: relative;
+h1 {
+  color: #d4d5db;
 }
 
-main {
-  background: #384f61;
-  border-bottom: 4px solid #46494c;
-  padding: 5vh;
-  position: relative;
-  overflow: hidden;
+h3 {
+  font-weight: 400;
+  color: #edf2f4;
+}
+
+h5 {
+  font-weight: 400;
+  color: #edf2f4;
+}
+
+h6 {
+  font-weight: 400;
+  color: #edf2f4;
+}
+
+a {
+  color: #edf2f4;
+}
+
+#email {
+  font-size: 22px;
+}
+
+.card-header {
+  color: #d4d5db;
+}
+
+.card-title {
+  color: #d4d5db;
+}
+
+card-subtitle {
+  color: #d4d5db;
+}
+
+legend {
+  color: #2b2d42;
+  text-align: center;
+}
+
+label {
+  color: #2b2d42;
+  text-align: left;
 }
 
 .center_vert {
@@ -59,7 +77,7 @@ main {
 }
 
 .card {
-  background-color: #46494c;
+  background-color: #2b2d42;
 }
 
 .svg-container {
@@ -76,13 +94,13 @@ svg path {
 }
 
 .footer_look {
-  background: #403d39;
+  background: #413f3e;
   padding: 10px;
   margin-top: auto;
 }
 
 #curve {
-  fill: #46494c;
+  fill: #2b2d42;
 }
 
 /* Me animation */
@@ -298,7 +316,7 @@ svg path {
     fill: transparent;
   }
   to {
-    fill: #384f61;
+    fill: #ef233c;
   }
 }
 
@@ -307,7 +325,7 @@ svg path {
     fill: transparent;
   }
   to {
-    fill: #384f61;
+    fill: #ef233c;
   }
 }
 
