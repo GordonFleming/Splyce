@@ -64,14 +64,14 @@ var botCir = document.getElementById("bottom")
 var scroll_position = 0;
 window.addEventListener("scroll",function(ezz){
     scroll_position = window.scrollY;
-    if(scroll_position>=0 && scroll_position<680){
+    if(scroll_position>=0 && scroll_position<700){
         topCir.style.color = "white"
         midCir.style.color = "grey"
-    }else if(scroll_position>=680 && scroll_position<1200){
+    }else if(scroll_position>=700 && scroll_position<1600){
         topCir.style.color = "grey"
         midCir.style.color = "white"
         botCir.style.color = "grey"
-    }else if(scroll_position>=1200){
+    }else if(scroll_position>=1600){
         botCir.style.color = "white"
         midCir.style.color = "grey"
     }
